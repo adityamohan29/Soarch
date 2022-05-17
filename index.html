@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/airport-autocomplete-js@latest/dist/index.browser.min.js"></script>
+</head>
+<body>
+
+<div class="login-box">
+ 
+  <form>
+ 
+    <input type="date" id="dateOfFlight"  style="float:right; margin-right:28%;">
+    
+    <div class="user-box" style="float:left;" >
+      <input type="text" class ="inp" id="fromIATA" required="" >
+      <label>from</label>
+    </div>
+    <i class="fa fa-plane"style="float:left;" ></i>
+    <div class="user-box"style="left:20%; float:left; ">
+      <input type="text" id="toIATA" required="">
+      <label>to</label>
+    </div>
+
+    <a href="#" id="submit" onClick = "flightSearchAPI(document.getElementById('fromIATA').value,document.getElementById('toIATA').value,document.getElementById('dateOfFlight').value)">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      soarch
+    </a>
+    
+    
+
+  </form>
+
+  </div>
+
+
+
+</body>
+
+
+<script src="../js/index.js"></script>
+  </html>
