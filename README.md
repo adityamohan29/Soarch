@@ -32,6 +32,11 @@ In this case, for flights from point A to B, soarch first performs a nearest nei
 
 At the end, the result from all these procedures are joined into a table and are ordered based on their price.
 
+
+A few remarks:
+
+1. Currently this web application works best on chrome in Windows environments.
+2. The first request might take a bit longer than usual, and the requests which follow might end up being slightly faster.
 Enjoy soarching!
 
 
@@ -39,3 +44,5 @@ Enjoy soarching!
 
 Airport Data: https://ourairports.com/data/
 Kiwi API: https://docs.kiwi.com/search-api/#/paths/~1flights/get 
+
+
