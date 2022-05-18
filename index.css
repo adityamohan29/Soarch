@@ -138,7 +138,7 @@ html {
 
 
   #flightDiv{
-    margin-top: 20%;
+    margin-top: 40vh;
     margin-left:10%;
 
     width:80%;
@@ -328,7 +328,7 @@ font-family: 'verdana';
 
   position: relative;
   margin-top: 10%;
-  margin-left: 90%;
+  margin-left: 70vw;
   font-family: 'verdana';
   font-size: 45px;
   padding: 3%;
@@ -352,7 +352,7 @@ font-family: 'verdana';
 
   position: relative;
   margin-top: -26.5%;
-  margin-left: 70%;
+  margin-left: 110vh;
   font-family: 'verdana';
   font-size: 25px;
   padding: 5%;
@@ -369,7 +369,7 @@ font-family: 'verdana';
   height: 1px;
   border: 1px;
   background: black;
-  width: 150px;
+  width: 9vw;
   margin-top: -23px;
   margin-left: 95px;
 }
@@ -379,7 +379,7 @@ font-family: 'verdana';
   height: 1px;
   border: 1px;
   background: black;
-  width: 150px;
+  width: 8vw;
   margin-top: -15px;
   margin-left: 50px;
 }
@@ -389,7 +389,7 @@ font-family: 'verdana';
   height: 1px;
   border: 1px;
   background: black;
-  width: 150px;
+  width: 9vw;
   margin-top: -15px;
   margin-left: 48px;
 }
@@ -400,7 +400,7 @@ font-family: 'verdana';
   text-decoration: none;
   position: absolute;
   margin-top: 8%;
-  margin-left: 19.5%;
+  margin-left:16vw;
 }
 
 
@@ -409,28 +409,28 @@ font-family: 'verdana';
   
   position: absolute;
   margin-top: 8%;
-  margin-left: 34%;
+  margin-left: 27.5vw;
 }
 
 #flightDivGrandChildID3_airline1{
 
   position: absolute;
   margin-top: 8%;
-  margin-left: 19%;
+  margin-left: 5vw;
 }
 
 #flightDivGrandChildID3_airline2{
 
   position: absolute;
   margin-top: 8%;
-  margin-left: 35%;
+  margin-left: 27vw;
 }
 
 #flightDivGrandChildID3_airline3{
 
   position: absolute;
   margin-top: 8%;
-  margin-left: 48.5%;
+  margin-left: 39vw;
 }
 
 #flightDivGrandChildID_time{
