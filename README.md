@@ -19,7 +19,7 @@ This is a pretty straightforward dump of the Kiwi API Call between two airports.
 
 #### 2. For Two-Stop flights
 
-For flights from point A to B, soarch first finds the neighbouring airports to point B ( let's call it _mid_airports_ (using POSTGIS's nearest neighbour operation) and finds the direct flights to _mid_airports_ from point A. If there exists a direct flight to _mid_airports_ , then the API is called from those airports as the origin, till the destination.
+For flights from point A to B, soarch first finds the neighbouring airports (using POSTGIS's nearest neighbour operation)  to point B ( let's call them _mid_airports_ ) and finds the direct flights to _mid_airports_ from point A. If there exists a direct flight to _mid_airports_ , then the API is called from those airports as the origin, till the destination.
 
 
 #### 2. For Three-Stop flights
