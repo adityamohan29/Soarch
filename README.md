@@ -8,7 +8,7 @@ Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store and
 
 
 
-### METHODOLOGY
+### Methodology
 
 This tool different spatial querying mechanisms to display the routes depending on the number of stops
 
