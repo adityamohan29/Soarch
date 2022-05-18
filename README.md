@@ -1,7 +1,7 @@
 ## https://adityamohan29.github.io/Soarch/
 
 
-# A guide to _Soarch_
+# A guide to [_Soarch_ ]( https://adityamohan29.github.io/Soarch/)
 
 ### A flight search tool that gives you the best routes for optimal prices based on spatial querying. 
 
