@@ -25,7 +25,7 @@ For flights from point A to B, soarch first finds the neighbouring airports to p
 #### 2. For Three-Stop flights
 
 
-In this case, for flights from point A to B, soarch first performs a nearest neighbour query in A and B and finds direct flights to airports close to A ( _mid_flights_A ) and B ( _mid_flights_B_ ) themseleves. Once these direct flights are established sorach finds the flights from _mid_flights_A_ to _mid_flights_B_ ).
+In this case, for flights from point A to B, soarch first performs a nearest neighbour query in A and B and finds direct flights to airports close to A ( _mid_flights_A_ ) and B ( _mid_flights_B_ ) themseleves. Once these direct flights are established sorach finds the flights from _mid_flights_A_ to _mid_flights_B_ ).
 
 At the end all these three are joined to a table and are ordered based on their price.
 
