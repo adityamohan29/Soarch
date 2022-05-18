@@ -2,7 +2,7 @@
 
 ### A flight search tool that gives you the best routes for optimal prices based on spatial querying. 
 
-Soarch makes use of kiwi.com's open flight search APIs to find prices for **_direct flights_** between two points and used spatial querying to formulate a route based on optimal prices. For best results, it's recommended to get the flight numbers and individual routes through the soarch interface and search for the flight for the particular route from the respective airline's website.
+Soarch makes use of kiwi.com's open flight search APIs to find prices for **_direct flights_** between two points and uses spatial querying to formulate a route based on optimal prices. For best results, it's recommended to get the flight numbers and individual routes through the soarch interface and search for the flight for the particular route from the respective airline's website.
 
 It displays the airport IATA code, airport names (when hovering on the IATA codes), flight numbers, deep link to Kiwi's booking page (hyperlinked to the flight codes), total duration and the total price of the flight.
 
