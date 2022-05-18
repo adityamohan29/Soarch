@@ -6,8 +6,7 @@ Soarch makes use of kiwi.com's open flight search APIs to find prices for **_dir
 
 It displays the airport IATA code, airport names (when hovering on the IATA codes), flight numbers, deep link to Kiwi's booking page (hyperlinked to the flight codes), total duration and the total price of the flight.
 
-Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store and perform spatial queries. The tool includes the functionality to display the best routes with two stops or less ( which would suffice to connect any two airports in the world ). 
-
+Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store geographic data and perform spatial queries. The tool includes the functionality to display the best routes with two stops or less ( which would suffice to connect any two airports in the world ). 
 
 
 ### Methodology
@@ -31,3 +30,9 @@ In this case, for flights from point A to B, soarch first performs a nearest nei
 At the end all these three are joined to a table and are ordered based on their price.
 
 Enjoy soarching!
+
+
+#### References
+
+Airport Data: https://ourairports.com/data/
+Kiwi API: https://docs.kiwi.com/search-api/#/paths/~1flights/get 
