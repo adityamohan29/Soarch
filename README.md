@@ -14,7 +14,7 @@ Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store geo
 This tool different spatial querying mechanisms to display the routes depending on the number of stops. 
 #### 1. For One-Stop flights
 
-This is a pretty straightforward dump of the API Call between two airports. 
+This is a pretty straightforward dump of the Kiwi API Call between two airports. 
 
 
 #### 2. For Two-Stop flights
@@ -27,7 +27,7 @@ For flights from point A to B, soarch first finds the neighbouring airports to p
 
 In this case, for flights from point A to B, soarch first performs a nearest neighbour query in A and B and finds direct flights to airports close to A ( _mid_flights_A_ ) and B ( _mid_flights_B_ ) themseleves. Once these direct flights are established sorach finds the flights from _mid_flights_A_ to _mid_flights_B_ ).
 
-At the end all these three are joined to a table and are ordered based on their price.
+At the end, the result from all these procedures are joined into a table and are ordered based on their price.
 
 Enjoy soarching!
 
