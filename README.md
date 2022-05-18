@@ -1,4 +1,4 @@
-# Soarch
+# A guide to Soarch
 
 ### A flight search tool that gives you the best routes for optimal prices based on spatial querying. 
 
