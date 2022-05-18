@@ -127,7 +127,7 @@ html {
 
 
   input[type="date"] {
-    font-family: Papyrus ;
+    font-family:'verdana';
     font-size: 1.2rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -589,7 +589,7 @@ font-family: 'verdana';
 
 
 #flightDivHead1{
-  font-family: Papyrus ;
+  font-family: 'verdana';
   margin-left: 0%;
   position: absolute;
   font-size: 30px;
@@ -600,14 +600,14 @@ font-family: 'verdana';
   height:4%;
 }
 #flightDivHead2{
-  font-family: Papyrus ;
+  font-family: 'verdana';
   margin-left: 61%;
   margin-top: 0%;
   position: absolute;
   font-size: 30px;
 }
 #flightDivHead3{
-  font-family: Papyrus ;
+  font-family: 'verdana';
   margin-left: 74%;
   margin-top: 0%;
   font-size: 30px;
