@@ -35,7 +35,7 @@ At the end, the result from all these procedures are joined into a table and are
 
 A few remarks:
 
-1. Currently this web application works best on chrome in Windows environments.
+1. Currently this web application works best on chrome in Windows/Linux environments.
 2. The first request might take a bit longer than usual, and the requests which follow might end up being slightly faster.
 
 
