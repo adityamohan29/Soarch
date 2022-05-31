@@ -9,7 +9,7 @@ Soarch makes use of kiwi.com's open flight search APIs to find prices for **_dir
 
 It displays the airport IATA code, airport names (when hovering on the IATA codes), flight numbers, deep link to Kiwi's booking page (hyperlinked to the flight codes), total duration and the total price of the flight.
 
-Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store geographic data and perform spatial queries. The tool includes the functionality to display the best routes with two stops or less ( which would suffice to connect any two airports in the world ). Golang was chosen as the primary language for the backend for API processing and serving and concurrent function execution (goroutines). The backend service is currently depolyed on heroku.com.
+Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store geographic data and perform spatial queries. The tool includes the functionality to display the best routes with two stops or less ( which would suffice to connect any two airports in the world ). Golang was chosen as the primary language for the backend for API processing and serving and concurrent function execution (goroutines). The backend service is currently depolyed on heroku.com. ### Important note: The free tier dyno was chosen for this heroku application which causes the first request to take some amount of time. Subsequent requests made within an hour of activity would be sped up.
 
 
 ### Methodology
@@ -35,8 +35,8 @@ At the end, the result from all these procedures are joined into a table and are
 
 A few remarks:
 
-### 1. Currently, this web application works best on chrome in Windows/Linux environments.
-### 2. The first request might take a bit longer than usual, and the requests which follow might end up being slightly faster.
+ 1. Currently, this web application works best on chrome in Windows/Linux environments.
+ 2. The first request might take a bit longer than usual, and the requests which follow might end up being slightly faster.
 
 
 Enjoy soarching!
