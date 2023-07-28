@@ -11,6 +11,8 @@ It displays the airport IATA code, airport names (when hovering on the IATA code
 
 Soarch makes use of POSTGIS (an extension of the POSTGRES database) to store geographic data and perform spatial queries. The tool includes the functionality to display the best routes with two stops or less ( which would suffice to connect any two airports in the world ). Golang was chosen as the primary language for the backend for API processing and serving and concurrent function execution (goroutines). The backend service is currently depolyed on heroku.com. **_Important note_** : The free tier dyno was chosen for this heroku application which causes the first request to take some amount of time. However, subsequent requests made within an hour of activity would be sped up.
 
+Update: This project can no longer be hosted since heroku had deleted all free tier dyno databases 
+
 
 ### Methodology
 
