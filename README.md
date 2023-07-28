@@ -1,4 +1,3 @@
-## https://adityamohan29.github.io/Soarch/
 
 
 # A guide to [_Soarch_ ]( https://adityamohan29.github.io/Soarch/)
